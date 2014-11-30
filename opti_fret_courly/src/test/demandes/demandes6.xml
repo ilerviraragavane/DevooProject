@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE JourneeType SYSTEM "demandes.dtd">
+<JourneeType>
+    <Entrepot adresse="1"/>
+    <PlagesHoraires>
+        <Plage heureDebut="8:0:0" heureFin="9:30:0">
+            <Livraisons>
+                <Livraison id="1" client="329" adresse="2"/>
+                <Livraison id="2" client="41" adresse="3"/>
+            </Livraisons>
+        </Plage>
+        <Plage heureDebut="7:30:0" heureFin="11:0:0">
+            <Livraisons>
+                <Livraison id="1" client="838" adresse="5"/>
+            </Livraisons>
+        </Plage>
+        <Plage heureDebut="11:0:0" heureFin="12:30:0">
+            <Livraisons>
+                <Livraison id="1" client="678" adresse="4"/>
+                <Livraison id="2" client="578" adresse="6"/>
+            </Livraisons>
+        </Plage>
+    </PlagesHoraires>
+</JourneeType>

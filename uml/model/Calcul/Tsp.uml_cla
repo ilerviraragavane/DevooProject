@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:79674660-ace7-4cbd-af5d-a1428ecd8484'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Tsp'
+   visibility='public'>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:42bbf70e-b002-45fa-9d51-c0a6ec1eabaa'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='next'
+    aggregation='none'
+    visibility='package'>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:47ef7bb7-9270-46dc-99ba-355aa31d8c8e'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:965e5da0-17bd-42a8-8b61-1946b10a2235'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:87dc8e2a-6158-41cd-bfd3-85630863d8c9'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='solve'
+    concurrency='sequential'
+    visibility='package'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:a10b6c40-2ed9-4283-9b8c-18a2468dcfce'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'/>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

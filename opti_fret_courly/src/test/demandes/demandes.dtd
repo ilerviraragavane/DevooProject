@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT  JourneeType (Entrepot,PlagesHoraires)>
+<!ELEMENT Entrepot EMPTY>
+
+<!ATTLIST Entrepot
+	adresse CDATA #REQUIRED>
+
+<!ELEMENT  PlagesHoraires (Plage)*>
+<!ELEMENT  Plage (Livraisons)>
+<!ATTLIST Plage 
+	heureDebut CDATA #REQUIRED
+	heureFin CDATA #REQUIRED>
+	
+<!ELEMENT  Livraisons (Livraison)*>
+<!ELEMENT Livraison EMPTY>
+<!ATTLIST Livraison	
+	id CDATA #REQUIRED
+	client CDATA #REQUIRED
+	adresse CDATA #REQUIRED>
+

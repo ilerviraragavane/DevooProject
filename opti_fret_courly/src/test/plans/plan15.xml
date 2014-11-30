@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Reseau SYSTEM "plan.dtd">
+<Reseau>
+<Noeud id="0" x="63" y="100">
+<TronconSortant nomRue="v0" vitesse="3.900000" longueur="602.100000" destination="1"/>
+<TronconSortant nomRue="h0" vitesse="4.200000" longueur="729.000000" destination="10"/>
+</Noeud>
+<Noeud id="1" x="88" y="171">
+<TronconSortant nomRue="v0" vitesse="4.100000" longueur="602.100000" destination="0"/>
+<TronconSortant nomRue="v0" vitesse="3.800000" longueur="627.500000" destination="2"/>
+<TronconSortant nomRue="h1" vitesse="4.000000" longueur="600.000000" destination="11"/>
+</Noeud>
+<Noeud id="2" x="103" y="248">
+<TronconSortant nomRue="v0" vitesse="4.600000" longueur="627.500000" destination="1"/>
+<TronconSortant nomRue="v0" vitesse="4.100000" longueur="581.700000" destination="3"/>
+<TronconSortant nomRue="h2" vitesse="3.800000" longueur="549.600000" destination="12"/>
+</Noeud>
+<Noeud id="3" x="65" y="310">
+<TronconSortant nomRue="v0" vitesse="4.000000" longueur="581.700000" destination="2"/>
+<TronconSortant nomRue="v0" vitesse="4.500000" longueur="334.000000" destination="4"/>
+</Noeud>
+<Noeud id="4" x="77" y="350">
+<TronconSortant nomRue="v0" vitesse="4.200000" longueur="334.000000" destination="3"/>
+<TronconSortant nomRue="v0" vitesse="4.100000" longueur="426.700000" destination="5"/>
+</Noeud>
+<Noeud id="5" x="83" y="403">
+<TronconSortant nomRue="v0" vitesse="4.100000" longueur="426.700000" destination="4"/>
+<TronconSortant nomRue="v0" vitesse="4.000000" longueur="640.700000" destination="6"/>
+<TronconSortant nomRue="h5" vitesse="4.000000" longueur="635.200000" destination="15"/>
+</Noeud>
+<Noeud id="6" x="87" y="483">
+<TronconSortant nomRue="v0" vitesse="4.700000" longueur="640.700000" destination="5"/>
+<TronconSortant nomRue="v0" vitesse="4.200000" longueur="838.200000" destination="7"/>
+</Noeud>
+<Noeud id="7" x="45" y="579">
+<TronconSortant nomRue="v0" vitesse="4.300000" longueur="838.200000" destination="6"/>
+<TronconSortant nomRue="v0" vitesse="4.100000" longueur="320.300000" destination="8"/>
+</Noeud>
+<Noeud id="8" x="43" y="619">
+<TronconSortant nomRue="v0" vitesse="4.700000" longueur="320.300000" destination="7"/>
+<TronconSortant nomRue="v0" vitesse="4.500000" longueur="652.600000" destination="9"/>
+</Noeud>
+<Noeud id="9" x="59" y="699">
+<TronconSortant nomRue="v0" vitesse="4.600000" longueur="652.600000" destination="8"/>
+</Noeud>
+<Noeud id="10" x="154" y="95">
+<TronconSortant nomRue="h0" vitesse="4.500000" longueur="729.000000" destination="0"/>
+<TronconSortant nomRue="v1" vitesse="4.700000" longueur="604.300000" destination="11"/>
+</Noeud>
+<Noeud id="11" x="163" y="170">
+<TronconSortant nomRue="v1" vitesse="3.900000" longueur="604.300000" destination="10"/>
+<TronconSortant nomRue="h1" vitesse="3.900000" longueur="600.000000" destination="1"/>
+<TronconSortant nomRue="v1" vitesse="4.400000" longueur="425.200000" destination="12"/>
+</Noeud>
+<Noeud id="12" x="167" y="223">
+<TronconSortant nomRue="v1" vitesse="4.500000" longueur="425.200000" destination="11"/>
+<TronconSortant nomRue="h2" vitesse="4.400000" longueur="549.600000" destination="2"/>
+<TronconSortant nomRue="v1" vitesse="3.800000" longueur="318.700000" destination="13"/>
+</Noeud>
+<Noeud id="13" x="155" y="261">
+<TronconSortant nomRue="v1" vitesse="4.600000" longueur="318.700000" destination="12"/>
+<TronconSortant nomRue="v1" vitesse="4.400000" longueur="892.300000" destination="14"/>
+</Noeud>
+<Noeud id="14" x="144" y="372">
+<TronconSortant nomRue="v1" vitesse="4.000000" longueur="892.300000" destination="13"/>
+<TronconSortant nomRue="v1" vitesse="4.100000" longueur="624.400000" destination="15"/>
+</Noeud>
+<Noeud id="15" x="147" y="450">
+<TronconSortant nomRue="v1" vitesse="4.200000" longueur="624.400000" destination="14"/>
+<TronconSortant nomRue="h5" vitesse="3.900000" longueur="635.200000" destination="5"/>
+</Noeud>
+</Reseau>

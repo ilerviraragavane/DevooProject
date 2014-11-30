@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Association xmi:type='uml:Association' xmi:uuid='urn:uuid:c7052c12-925e-4fe2-90c6-f17afcff0b02'
+   isAbstract='false'
+   isDerived='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Association7'
+   visibility='public'>
+  <memberEnd href='urn:uuid:7227b531-702a-476c-bf74-b048c8faa5d5'/>
+  <memberEnd href='urn:uuid:58aadf35-d1bd-495a-bd72-82278b1232d5'/>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:7227b531-702a-476c-bf74-b048c8faa5d5'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='livraisons'
+    aggregation='none'>
+   <association href='urn:uuid:c7052c12-925e-4fe2-90c6-f17afcff0b02'/>
+   <type href='urn:uuid:509a4262-cb7b-4c20-aae2-2e1138872662'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:0b2d9624-f0d9-4a1f-821a-3d1ae8e5be17'
+     value='0'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:ae296e0e-6b3a-4514-a214-691ee6ee5b74'
+     value='*'
+     visibility='public'/>
+  </ownedEnd>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:58aadf35-d1bd-495a-bd72-82278b1232d5'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='plageHoraire'
+    aggregation='none'
+    visibility='public'>
+   <association href='urn:uuid:c7052c12-925e-4fe2-90c6-f17afcff0b02'/>
+   <type href='urn:uuid:efb111c7-c748-4941-ab57-36005e80e7de'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:69baa083-e972-44ea-9e15-70e98fc393df'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:5d8d55a4-4dc6-4c79-8136-31d01fc745fe'
+     value='1'
+     visibility='public'/>
+  </ownedEnd>
+ </uml:Association>
+</xmi:XMI>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Association xmi:type='uml:Association' xmi:uuid='urn:uuid:93309d1d-35dc-42dc-9990-298a4836f93e'
+   isAbstract='false'
+   isDerived='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Association14'
+   visibility='public'>
+  <memberEnd href='urn:uuid:177c11e1-5920-4da2-89ea-8109ae1a3ee4'/>
+  <memberEnd href='urn:uuid:76d2ccc0-0689-405b-bc92-3638837a85e2'/>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:177c11e1-5920-4da2-89ea-8109ae1a3ee4'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='pointDeLivraison'
+    aggregation='none'>
+   <association href='urn:uuid:93309d1d-35dc-42dc-9990-298a4836f93e'/>
+   <type href='urn:uuid:f347332f-13cf-48b3-a19b-7366b8f64805'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:a4a27b40-ea8d-46de-8d23-b1b0f4aa68f1'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:d5fa56d4-52e5-499c-b0d6-38879489e8b6'
+     value='1'
+     visibility='public'/>
+  </ownedEnd>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:76d2ccc0-0689-405b-bc92-3638837a85e2'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='livraisons'
+    aggregation='none'>
+   <association href='urn:uuid:93309d1d-35dc-42dc-9990-298a4836f93e'/>
+   <type href='urn:uuid:509a4262-cb7b-4c20-aae2-2e1138872662'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:51521f6e-98ad-44be-994a-b51c21e1a260'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:f9285de4-c992-4bfa-9c8a-7a38c9912b45'
+     value='*'
+     visibility='public'/>
+  </ownedEnd>
+ </uml:Association>
+</xmi:XMI>

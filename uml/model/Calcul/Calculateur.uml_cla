@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:b2c81b60-e726-420a-a347-7f2f12c1fea5'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Calculateur'
+   visibility='public'>
+  <clientDependency href='urn:uuid:123a8865-4c39-4ab6-867f-725911398c3d'/>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:9db2ef60-a30c-47e5-97f6-7cccb2c79a57'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='calculerGraphePi'
+    concurrency='sequential'
+    visibility='package'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:520a21ea-3046-4969-b384-74b3376154f8'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:67e1f857-782d-4802-9bea-d8912e0a67d2'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:d800e2fd-424e-45c1-bb45-c1831a252daa'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='calculerTournee'
+    concurrency='sequential'
+    visibility='package'/>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:bceadb54-dbfe-43f6-a6b6-d42e0b31c9cf'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='construireChemins'
+    concurrency='sequential'
+    visibility='public'/>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:f533a4e4-c66e-4165-be13-b97d3b4d4212'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Calculateur'
+    concurrency='sequential'
+    visibility='public'/>
+ </uml:Class>
+</xmi:XMI>

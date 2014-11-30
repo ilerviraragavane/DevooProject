@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Reseau (Noeud+)> 
+<!ELEMENT Noeud (TronconSortant+)> 
+<!ATTLIST Noeud
+	id CDATA #REQUIRED
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED>
+<!ELEMENT TronconSortant EMPTY>
+<!ATTLIST TronconSortant
+	longueur CDATA #REQUIRED	
+	destination CDATA #REQUIRED
+	vitesse CDATA #REQUIRED
+	nomRue CDATA #REQUIRED>

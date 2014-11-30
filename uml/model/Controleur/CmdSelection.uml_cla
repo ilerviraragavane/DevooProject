@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:52b679c1-4373-410c-87eb-41e913ab6ba5'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='CmdSelection'
+   visibility='public'>
+  <generalization xmi:type='uml:Generalization' xmi:uuid='urn:uuid:6d2d7d50-5062-4cd7-97ca-a2d33f4eed1a'
+    isSubstitutable='true'>
+   <general href='urn:uuid:163c7419-4203-4012-acfc-5c5c14d4c7d6'/>
+  </generalization>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:1a5a02f8-3ac8-4cc2-804c-b55fc04dae62'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='vueDetailNoeud'
+    aggregation='none'
+    visibility='private'>
+   <type href='urn:uuid:04042aa5-5c4a-4fb2-a051-f235b1ec68e6'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:b781acbd-d159-47b9-8098-17fe1fdf0dee'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:313d066b-1010-4af9-83b5-639c8005996f'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:87ad72bb-30cc-43b7-b5c6-0dd098b9affe'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='vueZone'
+    aggregation='none'
+    visibility='private'>
+   <type href='urn:uuid:fc3b8e0a-2cda-449b-85b6-c753da1ea498'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:67b2df9d-3a86-4aad-b5e6-8b5450a9435a'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b01073a6-caf8-42c7-b16f-ff8f69e6116b'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:f1c8614e-b423-47ce-bfe0-29d66fe65da4'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='CmdSelection'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:0c3e6a0d-8286-40ac-8a69-dfcdf74ee84e'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vueDetailNoeud'
+     direction='in'>
+    <type href='urn:uuid:04042aa5-5c4a-4fb2-a051-f235b1ec68e6'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:db900f76-e1f9-4b8a-bcc5-79a115e15791'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vueZone'
+     direction='in'>
+    <type href='urn:uuid:fc3b8e0a-2cda-449b-85b6-c753da1ea498'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:e543fb04-695a-4548-a2df-7203ac6780e0'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='executer'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:b4681efe-735c-422b-8cd6-1c20ec95c822'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#Boolean'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Reseau SYSTEM "plan.dtd">
+<Reseau>
+    <Noeud id="0" x=
+        <TronconSortant nomRue="v0" vitesse="3.900000" longueur="602.100000" destination="1"/>
+    </Noeud>
+    <Noeud id="1" x="2" y="2">
+        <TronconSortant nomRue="v0" vitesse="4.100000" longueur="602.100000" destination="0"/>
+    </Noeud>
+</Reseau>

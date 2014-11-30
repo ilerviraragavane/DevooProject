@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Association xmi:type='uml:Association' xmi:uuid='urn:uuid:be8f24aa-f0e9-4d98-a327-ccd5aba0b6de'
+   isAbstract='false'
+   isDerived='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Association6'
+   visibility='public'>
+  <memberEnd href='urn:uuid:2679d308-9f6e-49a3-97b9-dd83b7445959'/>
+  <memberEnd href='urn:uuid:77092a81-efa4-43c3-88fe-480ef0600c54'/>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:2679d308-9f6e-49a3-97b9-dd83b7445959'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='tronconsSortants'
+    aggregation='none'>
+   <association href='urn:uuid:be8f24aa-f0e9-4d98-a327-ccd5aba0b6de'/>
+   <type href='urn:uuid:e8f90ac3-e118-4e1e-90e1-0845ee8e0757'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:07d38f09-4dc4-4ce8-979c-d83f36ca8733'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b9e1e4aa-adeb-431b-9944-d14f071bce3b'
+     value='*'
+     visibility='public'/>
+  </ownedEnd>
+  <ownedEnd xmi:type='uml:Property' xmi:uuid='urn:uuid:77092a81-efa4-43c3-88fe-480ef0600c54'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='origine'
+    aggregation='none'
+    visibility='public'>
+   <association href='urn:uuid:be8f24aa-f0e9-4d98-a327-ccd5aba0b6de'/>
+   <type href='urn:uuid:68f64357-ffee-411f-b257-3ec313099e46'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:bee148df-aef2-4b2b-a65e-191aec0167a4'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:e5cadd23-3734-43f8-95d9-a2f1ba37799d'
+     value='1'
+     visibility='public'/>
+  </ownedEnd>
+ </uml:Association>
+</xmi:XMI>

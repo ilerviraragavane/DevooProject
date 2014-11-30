@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:50c7dda4-02fd-48ee-a027-767ea98f6f88'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='CmdChargeDmd'
+   visibility='public'>
+  <generalization xmi:type='uml:Generalization' xmi:uuid='urn:uuid:4790668c-9c0f-4521-bec4-a6d6510e31bb'
+    isSubstitutable='true'>
+   <general href='urn:uuid:163c7419-4203-4012-acfc-5c5c14d4c7d6'/>
+  </generalization>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:d3bfba6d-5d77-47d3-8e6a-17d8b9078761'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='vueZone'
+    aggregation='none'
+    visibility='private'>
+   <type href='urn:uuid:fc3b8e0a-2cda-449b-85b6-c753da1ea498'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:908543e8-6b4b-4736-b7e8-cd13362594cd'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:eb25da69-665b-428f-bef9-1ac2aab2e001'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:366afd96-3dba-488b-bad9-ff675c50675a'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='vueDetailNoeud'
+    aggregation='none'
+    visibility='private'>
+   <type href='urn:uuid:04042aa5-5c4a-4fb2-a051-f235b1ec68e6'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:081f6837-27b8-4e5b-adbf-a217fbb941b8'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:20fb642e-61bf-4d4a-bbe6-503994c42950'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:e2e3e898-4972-4b04-be0e-74a53cd815dc'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='CmdChargeDmd'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:bd82dbbc-ca10-41e8-853b-e93e83438a5e'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vueZone'
+     direction='in'>
+    <type href='urn:uuid:fc3b8e0a-2cda-449b-85b6-c753da1ea498'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:8bf7c719-7d29-4865-a3a4-104525ae5563'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:be6c6388-776d-4e6b-8210-fdcbd83db07c'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:401d4ec5-eb6e-4724-836f-0ff3a9f34281'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='vueDetailNoeud'
+     direction='in'>
+    <type href='urn:uuid:04042aa5-5c4a-4fb2-a051-f235b1ec68e6'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:aa4b369d-7cc9-4b8e-9b9d-9f1f341538fd'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='fichier'
+     direction='in'>
+    <type href='http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#String'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:ac6b1bca-a4f1-48e1-86ed-a55a5972c653'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='executer'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:408d050f-305e-44bd-9fcc-2a82a60fa4f3'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='http://www.omg.org/spec/UML/20110701/PrimitiveTypes.xmi#Boolean'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

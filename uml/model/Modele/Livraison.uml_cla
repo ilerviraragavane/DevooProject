@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:509a4262-cb7b-4c20-aae2-2e1138872662'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Livraison'
+   visibility='public'>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:a51a50c2-452c-4675-af06-f31ab91f6b3b'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='estPlanifiee'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/boolean:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:2f86e0fa-071d-45eb-8417-60d18b1eddbf'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:87f545cc-1f43-42a6-98d7-d52868a1d200'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:bce59a86-ec93-49a2-a983-e83b934f569c'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getDestinataire'
+    concurrency='sequential'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:5866bc6f-a3c0-4ac4-a63e-1bc8333976d8'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='urn:uuid:f86ef50f-0895-4e17-bb6c-71ac793f1ef1'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:6aad2c58-8e01-4c27-877d-5e6caffcc840'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Livraison'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:f0ba92f0-0e89-4183-b54b-98d920bc6592'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='destinataire'
+     direction='in'>
+    <type href='urn:uuid:f86ef50f-0895-4e17-bb6c-71ac793f1ef1'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:964843c1-d761-47fe-bc34-c90e342b25ce'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='adresse'
+     direction='in'>
+    <type href='urn:uuid:c09f3e59-33bd-41f9-8dc7-7d1372851e2f'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:d19e4bf9-00de-4156-bf3b-d3eb2d7c3a34'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getAdresse'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:47929190-cf31-4aec-a198-4b77fcabca69'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:c09f3e59-33bd-41f9-8dc7-7d1372851e2f'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:997f6d63-b8ce-4de1-9443-bac1c2e37711'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='setPlageHoraire'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:9078085d-6c5f-4d9b-8fc3-e487c06f6441'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='plageHoraire'
+     direction='in'>
+    <type href='urn:uuid:efb111c7-c748-4941-ab57-36005e80e7de'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:bfa4e7fb-7245-4779-8c46-84717c8ff85c'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getPlageHoraire'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:67f146cd-7bbb-475b-b6ea-ea63a5dc4d6b'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:efb111c7-c748-4941-ab57-36005e80e7de'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

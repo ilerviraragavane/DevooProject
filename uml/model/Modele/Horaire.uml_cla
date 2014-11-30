@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:uml='http://www.omg.org/spec/UML/20110701'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.2.0.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:b71349ca-c7e4-4e36-a324-a3974ddc9880'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Horaire'
+   visibility='public'>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:2f6d74dd-c699-404e-bd3b-9840f5d18064'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='debut'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/java:uml:NamedElement/util:uml:NamedElement/Calendar:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:821c2f6d-8f33-4598-a5de-28fa165f8556'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:03375da8-0524-47c8-a786-b5fd0520e0c4'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:2ec1eb28-f9b0-4c68-a4f3-ec8d88e2892e'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='fin'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/java:uml:NamedElement/util:uml:NamedElement/Calendar:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:4e10adfb-c8db-47f5-8c49-6b39c7060751'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:8558a622-15d2-4425-a78d-ae41db977522'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:c5f4da75-41a0-43db-b3b3-338678b550ee'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Horaire'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:3162d669-ad11-4187-a385-0b6634c7e780'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='debut'
+     direction='in'>
+    <type href='urn:uuid:52f3f50a-dc98-407e-bd6f-a2f17207cd69'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:9d821ce4-0061-4c71-9f0e-cf7beffa8922'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='fin'
+     direction='in'>
+    <type href='urn:uuid:52f3f50a-dc98-407e-bd6f-a2f17207cd69'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:6a78b6bf-477d-41c5-aa6f-e4ccd2623d97'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getDebut'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:3e65cf9d-79bc-425a-917f-52dfbd918292'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:52f3f50a-dc98-407e-bd6f-a2f17207cd69'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:14c21a61-fb00-471d-a6e5-8a6b5a5f2783'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getFin'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:144e1a8a-735c-4ba2-ab23-a5fc9d89ee6c'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:52f3f50a-dc98-407e-bd6f-a2f17207cd69'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:5b1944cd-d398-4f91-9b99-c0d2f3001289'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='compareTo'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:2bde47cf-8e5a-4033-8849-c7fa5e680a58'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='Horaire'
+     direction='in'/>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:b648e70e-6432-41c5-abec-f11603e3758d'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:95bd9ceb-801e-49f3-91b1-d7f7b124cc96'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

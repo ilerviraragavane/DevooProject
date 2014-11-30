@@ -1,0 +1,49 @@
+Tournee du 18 novembre 2013
+
+Nombre de livraisons du jour : 3
+Heure de départ de l'entrepôt : 08:00
+Heure de retour à l'entrepôt : 10:30
+
+----------- Livraison 1 -----------
+Destinataire : 2
+Lieu de livraison : 2
+Plage horaire : 08:00 - 09:10
+Itinéraire : 
+	>>> Depuis l'entrepot 
+	> Prendre la rue run12
+	>>> Vous êtes arrivé !
+Heure d'arrivée prévue : 08:30
+Heure de départ prévue pour le prochain point : 08:40
+
+
+----------- Livraison 2 -----------
+Destinataire : 4
+Lieu de livraison : 4
+Plage horaire : 09:20 - 11:30
+Itinéraire : 
+	>>> Depuis le lieu 2
+	> Prendre la rue run23
+	> A la prochaine intersection, prendre la rue run34
+	>>> Vous êtes arrivé !
+Heure d'arrivée prévue : 09:30
+Heure de départ prévue pour le prochain point : 09:40
+
+
+----------- Livraison 3 -----------
+Destinataire : 5
+Lieu de livraison : 5
+Plage horaire : 09:20 - 11:30
+Itinéraire : 
+	>>> Depuis le lieu 4
+	> Prendre la rue run45
+	>>> Vous êtes arrivé !
+Heure d'arrivée prévue : 10:00
+Heure de départ prévue pour le prochain point : 10:10
+
+
+----------- Retour à l'entrepôt -----------
+Itinéraire : 
+	>>> Depuis le lieu 5
+	> Prendre la rue run61
+	>>> Vous êtes arrivé !
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Reseau SYSTEM "plan.dtd">
+<Reseau>
+<Noeud id="0" x="63" y="100">
+<TronconSortant nomRue="v0" vitesse="3.900000" longueur="602.100000" destination="1"/>
+</Noeud>
+<Noeud id="1" x="88" y="171">
+<TronconSortant nomRue="v0" vitesse="4.100000" longueur="602.100000" destination="0"/>
+<TronconSortant nomRue="v0" vitesse="3.800000" longueur="627.500000" destination="2"/>
+</Noeud>
+<Noeud id="2" x="103" y="248">
+<TronconSortant nomRue="v0" vitesse="4.600000" longueur="627.500000" destination="1"/>
+<TronconSortant nomRue="v0" vitesse="4.100000" longueur="581.700000" destination="3"/>
+</Noeud>
+<Noeud id="3" x="65" y="310">
+<TronconSortant nomRue="v0" vitesse="4.000000" longueur="581.700000" destination="2"/>
+<TronconSortant nomRue="v0" vitesse="4.500000" longueur="334.000000" destination="4"/>
+</Noeud>
+<Noeud id="4" x="77" y="350">
+<TronconSortant nomRue="v0" vitesse="4.200000" longueur="334.000000" destination="3"/>
+<TronconSortant nomRue="v0" vitesse="4.100000" longueur="426.700000" destination="5"/>
+</Noeud>
+<Noeud id="5" x="83" y="403">
+<TronconSortant nomRue="v0" vitesse="4.100000" longueur="426.700000" destination="4"/>
+</Noeud>
+</Reseau>
